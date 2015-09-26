@@ -12,6 +12,11 @@ GNU coreutils NEWS                                    -*- outline -*-
   base32 is added to complement the existing base64 command,
   and encodes and decodes printable text as per RFC 4648.
 
+** New features
+
+  head, tail now have -z, --zero-terminated options to work with
+  NUL-terminated lines of text.
+
 ** Changes in behavior
 
   base64 no longer supports hex or oct --wrap parameters,
