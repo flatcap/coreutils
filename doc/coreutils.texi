@@ -2808,6 +2808,12 @@ Never print file name headers.
 @opindex --verbose
 Always print file name headers.
 
+@item -z
+@itemx --zero-terminated
+@opindex -z
+@opindex --zero-terminated
+Input lines are NUL-terminated.
+
 @end table
 
 For compatibility @command{head} also supports an obsolete option syntax
@@ -3022,6 +3028,12 @@ Never print file name headers.
 @opindex -v
 @opindex --verbose
 Always print file name headers.
+
+@item -z
+@itemx --zero-terminated
+@opindex -z
+@opindex --zero-terminated
+Input lines are NUL-terminated.
 
 @end table
 
